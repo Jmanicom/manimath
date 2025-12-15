@@ -112,7 +112,7 @@ struct Vec2
 
     Vec2 normalized() const noexcept {
         T mag = magnitude();
-        return mag > T(0) ? (*this / mag) : Vec2::zero();
+        return mag > T(0) ? (*this / mag) : Vec2();
     }
     
     Vec2& normalize() noexcept {
@@ -253,7 +253,7 @@ struct Vec3
      
     Vec3 normalized() const noexcept {
         T mag = magnitude();
-        return mag > T(0) ? (*this / mag) : Vec3::zero();
+        return mag > T(0) ? (*this / mag) : Vec3();
     }
     
     Vec3& normalize() noexcept {
@@ -377,7 +377,7 @@ struct Vec4
     
     Vec4 normalized() const noexcept {
         T mag = magnitude();
-        return mag > T(0) ? (*this / mag) : Vec4::zero();
+        return mag > T(0) ? (*this / mag) : Vec4();
     }
     
     Vec4& normalize() noexcept {
