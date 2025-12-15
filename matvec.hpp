@@ -137,6 +137,7 @@ struct Vec2
 using Vec2i = Vec2<int>;
 using Vec2u = Vec2<unsigned int>;
 using Vec2f = Vec2<float>;
+using Vec2d = Vec2<double>;
 
 
 /// @brief 3D Vector template with various linear algebra operations
@@ -274,7 +275,7 @@ struct Vec3
 using Vec3i = Vec3<int>;
 using Vec3u = Vec3<unsigned int>;
 using Vec3f = Vec3<float>;
-
+using Vec3d = Vec3<double>;
 
 /// @brief 4D Vector template with various linear algebra operations
 /// @tparam T Numeric type (int, unsigned int, float, double)
@@ -399,7 +400,7 @@ struct Vec4
 using Vec4i = Vec4<int>;
 using Vec4u = Vec4<unsigned int>;
 using Vec4f = Vec4<float>;
-
+using Vec4d = Vec4<double>;
 
 /// @brief A 2x2 matrix template with basic linear algebra operations
 /// @tparam T Numeric type (int, unsigned int, float, double)
@@ -503,7 +504,7 @@ struct Mat2
 using Mat2i = Mat2<int>;
 using Mat2u = Mat2<unsigned int>;
 using Mat2f = Mat2<float>;
-
+using Mat2d = Mat2<double>;
 
 /// @brief A 3x3 matrix template with basic linear algebra operations
 /// @tparam T Numeric type (int, unsigned int, float, double)
@@ -688,6 +689,7 @@ struct Mat3
 using Mat3i = Mat3<int>;
 using Mat3u = Mat3<unsigned int>;
 using Mat3f = Mat3<float>;
+using Mat3d = Mat3<double>;
 
 // Hash support for unordered containers
 namespace std {
