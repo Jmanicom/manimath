@@ -2,8 +2,7 @@
 
 #include <cmath>
 #include <cassert>
-#include <limits>
-#include <ostream>
+#include <iostream>
 
 /// @brief 2D Vector template with various linear algebra operations
 /// @tparam T Numeric type (int, unsigned int, float, double)
